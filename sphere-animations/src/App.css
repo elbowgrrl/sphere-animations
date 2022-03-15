@@ -11,35 +11,47 @@ div .sphere-1 {
   height: 200px;
   width: 200px;
   border-radius: 50%;
-  background-color:blueviolet;
+  background-color: #9bf6ff;
+background-image: linear-gradient(43deg, #9bf6ff 0%, #bdb2ff 100%);
+
+
+
 }
 
 div .sphere-2 {
   height: 200px;
   width: 200px;
   border-radius: 50%;
-  background-color:rgb(73, 43, 226);
+  background-color: #FFDEE9;
+background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+
 }
 
 div .sphere-3 {
   height: 200px;
   width: 200px;
   border-radius: 50%;
-  background-color:rgb(165, 43, 226);
+  background-color: #0093E9;
+background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+
 }
 
 div .sphere-4 {
   height: 200px;
   width: 200px;
   border-radius: 50%;
-  background-color:rgb(43, 131, 226);
+  background-color: #D9AFD9;
+background-image: linear-gradient(315deg, #D9AFD9 0%, #97D9E1 100%);
+
 }
 
 div .sphere-5 {
   height: 200px;
   width: 200px;
   border-radius: 50%;
-  background-color:rgb(43, 226, 214);
+  background-color: #FA8BFF;
+background-image: linear-gradient(45deg, #ffc6ff 0%, #9bf6ff 52%, #caffbf 90%);
+
 }
 
 
