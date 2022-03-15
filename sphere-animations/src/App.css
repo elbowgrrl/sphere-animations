@@ -3,8 +3,6 @@
 }
 
 .container-outer {
-  display: flex;
-  flex-direction: row;
 }
 
 div .sphere-1 {
@@ -12,7 +10,11 @@ div .sphere-1 {
   width: 200px;
   border-radius: 50%;
   background-color: #9bf6ff;
-  background-image:  url(escheresque.png), linear-gradient(43deg, #9bf6ff 0%, #bdb2ff 100%);
+  background-image: url(escheresque.png),
+    linear-gradient(43deg, #9bf6ff 0%, #bdb2ff 100%);
+  position: relative;
+  /* left: 300;
+  bottom: 300px; */
 }
 
 div .sphere-2 {
@@ -20,7 +22,11 @@ div .sphere-2 {
   width: 200px;
   border-radius: 50%;
   background-color: #ffdee9;
-  background-image: url(gplay.png), linear-gradient(0deg, #ffdee9 0%, #b5fffc 100%);
+  background-image: url(gplay.png),
+    linear-gradient(0deg, #ffdee9 0%, #b5fffc 100%);
+  position: relative;
+  /* left: 200;
+  bottom: 300px; */
 }
 
 div .sphere-3 {
@@ -28,7 +34,11 @@ div .sphere-3 {
   width: 200px;
   border-radius: 50%;
   background-color: #0093e9;
-  background-image: url(cutcube.png), linear-gradient(160deg, #0093e9 0%, #80d0c7 100%);
+  background-image: url(cutcube.png),
+    linear-gradient(160deg, #0093e9 0%, #80d0c7 100%);
+  position: relative;
+  /* left: 700;
+  bottom: 500px; */
 }
 
 div .sphere-4 {
@@ -36,7 +46,11 @@ div .sphere-4 {
   width: 200px;
   border-radius: 50%;
   background-color: #d9afd9;
-  background-image: url(arches.png), linear-gradient(315deg, #d9afd9 0%, #97d9e1 100%);
+  background-image: url(arches.png),
+    linear-gradient(315deg, #d9afd9 0%, #97d9e1 100%);
+  position: relative;
+  /* left: 300;
+  bottom: 300px; */
 }
 
 div .sphere-5 {
@@ -46,4 +60,7 @@ div .sphere-5 {
   background-color: #fa8bff;
   background-image: url(strange-bullseyes.png),
     linear-gradient(45deg, #ffc6ff 0%, #9bf6ff 52%, #caffbf 90%);
+  position: relative;
+  /* left: 0;
+  bottom: 150px; */
 }
