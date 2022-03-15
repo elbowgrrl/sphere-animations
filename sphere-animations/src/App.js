@@ -1,8 +1,9 @@
 import './App.css';
+import background from "./spheres_background.png"
 
 function App() {
   return (
-   <div className='frame'></div>
+    <div style={{ backgroundImage: `url(${background})` }}></div>
   );
 }
 
