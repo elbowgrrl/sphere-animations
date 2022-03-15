@@ -1,7 +1,45 @@
 .App {
   text-align: center;
-  
-  
+}
+
+.container-outer {
+  display: flex;
+  flex-direction: row;
+}
+
+div .sphere-1 {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  background-color:blueviolet;
+}
+
+div .sphere-2 {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  background-color:rgb(73, 43, 226);
+}
+
+div .sphere-3 {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  background-color:rgb(165, 43, 226);
+}
+
+div .sphere-4 {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  background-color:rgb(43, 131, 226);
+}
+
+div .sphere-5 {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  background-color:rgb(43, 226, 214);
 }
 
 
