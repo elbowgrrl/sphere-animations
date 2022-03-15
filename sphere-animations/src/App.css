@@ -3,6 +3,7 @@
 }
 
 .container-outer {
+  width: 90%;
 }
 
 div .sphere-1 {
@@ -13,8 +14,8 @@ div .sphere-1 {
   background-image: url(escheresque.png),
     linear-gradient(43deg, #9bf6ff 0%, #bdb2ff 100%);
   position: relative;
-  /* left: 300;
-  bottom: 300px; */
+  animation: move-sphere-1 15s infinite;
+  animation-direction: alternate-reverse;
 }
 
 div .sphere-2 {
@@ -25,8 +26,8 @@ div .sphere-2 {
   background-image: url(gplay.png),
     linear-gradient(0deg, #ffdee9 0%, #b5fffc 100%);
   position: relative;
-  /* left: 200;
-  bottom: 300px; */
+  animation: move-sphere-2 20s infinite;
+  animation-direction: alternate-reverse;
 }
 
 div .sphere-3 {
@@ -37,8 +38,8 @@ div .sphere-3 {
   background-image: url(cutcube.png),
     linear-gradient(160deg, #0093e9 0%, #80d0c7 100%);
   position: relative;
-  /* left: 700;
-  bottom: 500px; */
+  animation: move-sphere-3 25s infinite;
+  animation-direction: alternate-reverse;
 }
 
 div .sphere-4 {
@@ -49,8 +50,27 @@ div .sphere-4 {
   background-image: url(arches.png),
     linear-gradient(315deg, #d9afd9 0%, #97d9e1 100%);
   position: relative;
-  /* left: 300;
-  bottom: 300px; */
+  margin: auto;
+  animation: move-sphere-4 5s infinite;
+  animation-direction: alternate-reverse;
+}
+@keyframes move-sphere-4 {
+  0% {
+transform: translateX(100px);
+transform: translateY(-100px);
+  }
+  25% {
+    transform: translateX(225px);
+transform: translateY(-200px);
+  }
+  50% {
+    transform: translateX(350px);
+transform: translateY(-300px);
+  }
+  100% {
+    transform: translateX(475px);
+transform: translateY(-400px);
+  }
 }
 
 div .sphere-5 {
@@ -61,6 +81,118 @@ div .sphere-5 {
   background-image: url(strange-bullseyes.png),
     linear-gradient(45deg, #ffc6ff 0%, #9bf6ff 52%, #caffbf 90%);
   position: relative;
-  /* left: 0;
-  bottom: 150px; */
+  animation: move-sphere-5 25s infinite;
+  animation-direction: alternate-reverse;
+}
+@keyframes move-sphere-5 {
+  0% {
+    margin-left: 100%;
+    bottom: 700px;
+  }
+  100% {
+    margin-left: 0%;
+    bottom: 0px;
+  }
+}
+
+
+
+@keyframes move-sphere-1 {
+  0% {
+    margin-left: 0%;
+    bottom: 0px;
+  }
+  25% {
+    margin-left: 25%;
+    bottom: -655px;
+  }
+  50% {
+    margin-left: 50%;
+    bottom: 0px;
+  }
+  100% {
+    margin-left: 100%;
+    bottom: -655px;
+  }
+}
+
+@keyframes move-sphere-2 {
+  0% {
+    margin-left: 100%;
+    bottom: 0px;
+  }
+  10% {
+transform: rotate(.25turn)
+  }
+  20% {
+    transform: rotate(.25turn)
+  }
+  30% {
+    transform: rotate(.5turn)
+  }
+  40% {
+    transform: rotate(.75turn)
+  }
+  50% {
+    margin-left: 50%;
+    bottom: -500px;
+  }
+  60% {
+    transform: rotate(.125turn)
+  }
+  70% {
+    transform: rotate(.75turn)
+  }
+  80% {
+    transform: rotate(.5turn)
+  }
+  90% {
+    transform: rotate(.7turn)
+  }
+  100% {
+    margin-left: 0%;
+    bottom: 175px;
+  }
+}
+
+@keyframes move-sphere-3 {
+  0% {
+    margin-left: 0%;
+    bottom: -100px;
+  }
+  12% {
+    margin-left: 225px;
+    bottom: 100px;
+  }
+  25% {
+    margin-left: 450px;
+    bottom: -100px;
+    transform: skew(10deg, 15deg)
+  }
+  37% {
+    margin-left: 675px;
+    bottom: 100px;
+  }
+  50% {
+    margin-left: 900px;
+    bottom: -100px;
+    transform: skew(0deg, 0deg)
+  }
+  67% {
+    margin-left: 1125px;
+    bottom: 0px;
+  }
+  75% {
+    margin-left: 1350px;
+    bottom: -100px;
+    transform: skew(10deg, 15deg)
+  }
+  87% {
+    margin-left: 1575px;
+    bottom: 100px;
+  }
+  100% {
+    margin-left: 1800px;
+    bottom: -100px;
+  }
 }
