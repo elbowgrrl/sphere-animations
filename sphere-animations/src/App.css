@@ -54,24 +54,6 @@ div .sphere-4 {
   animation: move-sphere-4 5s infinite;
   animation-direction: alternate-reverse;
 }
-@keyframes move-sphere-4 {
-  0% {
-transform: translateX(100px);
-transform: translateY(-100px);
-  }
-  25% {
-    transform: translateX(225px);
-transform: translateY(-200px);
-  }
-  50% {
-    transform: translateX(350px);
-transform: translateY(-300px);
-  }
-  100% {
-    transform: translateX(475px);
-transform: translateY(-400px);
-  }
-}
 
 div .sphere-5 {
   height: 200px;
@@ -94,8 +76,6 @@ div .sphere-5 {
     bottom: 0px;
   }
 }
-
-
 
 @keyframes move-sphere-1 {
   0% {
@@ -167,7 +147,6 @@ transform: rotate(.25turn)
   25% {
     margin-left: 450px;
     bottom: -100px;
-    transform: skew(10deg, 15deg)
   }
   37% {
     margin-left: 675px;
@@ -176,7 +155,6 @@ transform: rotate(.25turn)
   50% {
     margin-left: 900px;
     bottom: -100px;
-    transform: skew(0deg, 0deg)
   }
   67% {
     margin-left: 1125px;
@@ -185,7 +163,6 @@ transform: rotate(.25turn)
   75% {
     margin-left: 1350px;
     bottom: -100px;
-    transform: skew(10deg, 15deg)
   }
   87% {
     margin-left: 1575px;
@@ -194,5 +171,24 @@ transform: rotate(.25turn)
   100% {
     margin-left: 1800px;
     bottom: -100px;
+  }
+}
+
+@keyframes move-sphere-4 {
+  0% {
+transform: translateX(100px);
+transform: translateY(-100px);
+  }
+  25% {
+    transform: translateX(225px);
+transform: translateY(-200px);
+  }
+  50% {
+    transform: translateX(350px);
+transform: translateY(-300px);
+  }
+  100% {
+    transform: translateX(475px);
+transform: translateY(-400px);
   }
 }
